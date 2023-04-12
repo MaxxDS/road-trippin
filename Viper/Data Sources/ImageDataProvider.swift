@@ -44,7 +44,7 @@ private struct PixabayResponse: Codable {
 
 //Get an API Key here: https://pixabay.com/accounts/register/
 class PixabayImageDataProvider: ImageDataProvider {
-  let apiKey = "<#Enter your API key here#>"
+  let apiKey = "35338847-94bdc69f77e9fd37f795eea5c"
 
   private func searchURL(query: String) -> URL {
     var components = URLComponents(string: "https://pixabay.com/api")!

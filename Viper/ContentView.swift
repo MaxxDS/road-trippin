@@ -33,7 +33,7 @@ struct ContentView: View {
 
   var body: some View {
     NavigationView {
-      VStack(spacing: 32) {
+    VStack(spacing: 32) {
         Text("Welcome to Visually Interesting Planned Easy Roadtrips (VIPER).")
         Text("Just follow along in the tutorial.")
         Text("Your trip awaits...")
